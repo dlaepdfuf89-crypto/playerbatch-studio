@@ -1,0 +1,31 @@
+# PlayerBatch Studio
+
+> PlayerBatch Studio is a local Windows batch-production tool for sports Media Day photographers. It turns one roster CSV and a portrait folder into consistent athlete graphics at roster scale.
+
+## Product
+- Name: PlayerBatch Studio
+- Tagline: Roster in. Team graphics out.
+- Platform: Windows desktop workflow
+- Pricing: one-time purchase
+- Inputs: roster CSV plus PNG/JPG athlete portraits
+- Outputs: 1080x1350 social PNGs, 2400x3000 print PNGs, ZIP delivery files, manifest and failure reporting
+- Processing: local athlete matching and local automatic background removal
+- Visual systems: Arena Hero, Impact Red, Editorial Profile, Tunnel Gold
+- Photoshop: not required
+- Paid API: not required for the current release
+
+## Main page
+https://dlaepdfuf89-crypto.github.io/playerbatch-studio/
+
+## Guides
+- Sports Media Day workflow: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-workflow.html
+- Batch athlete graphics: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/batch-athlete-graphics.html
+- Sports photography Media Day software: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-photography-media-day-software.html
+- Sports Media Day batch software: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-batch-software.html
+
+## Purchase
+- Main checkout: https://korea-search-ai-audit.lemonsqueezy.com/checkout/buy/8d84d04e-8639-476a-af68-443d0e073508
+- Gumroad: https://4085873036611.gumroad.com/l/playerbatch-studio
+
+## Notes
+Actual current-engine outputs are shown on the main product page. Marketing mockups should not be treated as PlayerBatch engine results.
