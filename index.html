@@ -83,12 +83,12 @@ section{padding:70px 0;border-top:1px solid #13283f}h2{font-size:38px;letter-spa
 (function(){
   try{
     const qs=new URLSearchParams(location.search);
-    let source=qs.get('utm_source')||'';
+    let source=qs.get('utm_source')||qs.get('ref')||'';
     if(!source&&document.referrer){
       const h=new URL(document.referrer).hostname.replace(/^www\./,'');
       source=h.split('.')[0]||'referral';
     }
-    if(!source) source='direct';
+    source=(source||'direct').toLowerCase().replace(/[^a-z0-9_-]+/g,'_');
     const medium=qs.get('utm_medium')||'referral';
     const campaign=qs.get('utm_campaign')||'playerbatch_launch';
     document.querySelectorAll('a.buy-link').forEach(a=>{
