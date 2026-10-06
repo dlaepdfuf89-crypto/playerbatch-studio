@@ -20,7 +20,11 @@ The workflow is designed for jobs where the same visual system must be personali
 
 ## Current release
 
+- Version 2.1.0
 - Windows local workflow
+- Exact-match-first portrait matching with ambiguous matches flagged for review
+- Critical missing/ambiguous portraits block batch export
+- Duplicate output filenames are preserved instead of overwritten
 - One-time purchase
 - No Photoshop required
 - No recurring subscription required
