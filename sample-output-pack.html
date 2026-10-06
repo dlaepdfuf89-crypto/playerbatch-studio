@@ -14,4 +14,25 @@
 <h2>Sample roster CSV</h2><p>The sample shows the expected roster fields before you run a real team job.</p>
 <a class="cta" href="sample_roster_20.csv" download>Download sample roster CSV</a>
 <a class="cta" href="https://4085873036611.gumroad.com/l/playerbatch-studio?utm_source=sample_pack&utm_medium=referral&utm_campaign=playerbatch_launch">Get PlayerBatch Studio — $49</a>
-</main></body></html>
+</main><script id="sample-pack-attribution">
+(function(){
+ try{
+  const qs=new URLSearchParams(location.search);
+  let source=qs.get('utm_source')||qs.get('ref')||'';
+  if(!source&&document.referrer){
+   const h=new URL(document.referrer).hostname.replace(/^www\./,'');
+   source=h.split('.')[0]||'referral';
+  }
+  source=(source||'sample_pack').toLowerCase().replace(/[^a-z0-9_-]+/g,'_');
+  const medium=qs.get('utm_medium')||'referral';
+  const campaign=qs.get('utm_campaign')||'playerbatch_launch';
+  document.querySelectorAll('a[href*="gumroad.com/l/playerbatch-studio"]').forEach(a=>{
+   const u=new URL(a.href);
+   u.searchParams.set('utm_source',source);
+   u.searchParams.set('utm_medium',medium);
+   u.searchParams.set('utm_campaign',campaign);
+   a.href=u.toString();
+  });
+ }catch(e){}
+})();
+</script></body></html>
