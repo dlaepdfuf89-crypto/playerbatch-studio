@@ -20,9 +20,12 @@ The workflow is designed for jobs where the same visual system must be personali
 
 ## Current release
 
-- Version 2.1.0
+- Version 2.2.1
 - Windows local workflow
 - Exact-match-first portrait matching with ambiguous matches flagged for review
+- Real-photo visual QA across all four systems
+- Cleaner Editorial and Tunnel hierarchy with long-text-safe layouts
+- Tunnel venue background treatment suppresses incidental readable venue text
 - Critical missing/ambiguous portraits block batch export
 - Duplicate output filenames are preserved instead of overwritten
 - One-time purchase
