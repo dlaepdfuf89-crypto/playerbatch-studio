@@ -91,7 +91,7 @@ section{padding:70px 0;border-top:1px solid #13283f}h2{font-size:38px;letter-spa
     source=(source||'direct').toLowerCase().replace(/[^a-z0-9_-]+/g,'_');
     const medium=qs.get('utm_medium')||'referral';
     const campaign=qs.get('utm_campaign')||'playerbatch_launch';
-    document.querySelectorAll('a.buy-link').forEach(a=>{
+    document.querySelectorAll('a.buy-link, a.krw-link').forEach(a=>{
       const u=new URL(a.href);
       u.searchParams.set('utm_source',source);
       u.searchParams.set('utm_medium',medium);
