@@ -13,7 +13,9 @@
 </div>
 <h2>Sample roster CSV</h2><p>The sample shows the expected roster fields before you run a real team job.</p>
 <a class="cta" href="sample_roster_20.csv" download>Download sample roster CSV</a>
-<a class="cta" href="https://4085873036611.gumroad.com/l/playerbatch-studio?utm_source=sample_pack&utm_medium=referral&utm_campaign=playerbatch_launch">Get PlayerBatch Studio — $49</a>
+<a class="cta buy-link" href="https://4085873036611.gumroad.com/l/playerbatch-studio?utm_source=sample_pack&utm_medium=referral&utm_campaign=playerbatch_launch">Get PlayerBatch Studio — $49</a>
+<a class="cta krw-link" href="https://korea-search-ai-audit.lemonsqueezy.com/checkout/buy/8d84d04e-8639-476a-af68-443d0e073508" style="background:#0d1a2a;color:#d7ebff;border:1px solid #31577d">Pay in KRW — ₩69,000</a>
+<p style="margin-top:14px;color:#9fb3ca;font-size:13px">Instant download · Current release V2.2.1 · Windows · No recurring subscription · No Photoshop required</p>
 </main><script id="sample-pack-attribution">
 (function(){
  try{
@@ -26,7 +28,7 @@
   source=(source||'sample_pack').toLowerCase().replace(/[^a-z0-9_-]+/g,'_');
   const medium=qs.get('utm_medium')||'referral';
   const campaign=qs.get('utm_campaign')||'playerbatch_launch';
-  document.querySelectorAll('a[href*="gumroad.com/l/playerbatch-studio"]').forEach(a=>{
+  document.querySelectorAll('a.buy-link,a.krw-link').forEach(a=>{
    const u=new URL(a.href);
    u.searchParams.set('utm_source',source);
    u.searchParams.set('utm_medium',medium);
