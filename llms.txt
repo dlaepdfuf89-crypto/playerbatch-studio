@@ -2,44 +2,48 @@
 
 > PlayerBatch Studio is a local Windows batch-production tool for sports Media Day photographers. It turns one roster CSV and a portrait folder into consistent athlete graphics at roster scale.
 
-## Product
-- Name: PlayerBatch Studio
-- Tagline: Roster in. Team graphics out.
-- Platform: Windows desktop workflow
-- Pricing: one-time purchase
-- Inputs: roster CSV plus PNG/JPG athlete portraits
-- Outputs: 1080x1350 social PNGs, 2400x3000 print PNGs, ZIP delivery files, manifest and failure reporting
-- Processing: local athlete matching and local automatic background removal
-- Visual systems: Arena Hero, Impact Red, Editorial Profile, Tunnel Gold
+## Current release
+- Version: V2.2.1
+- Platform: Windows
+- License model: one-time purchase
+- Processing: local
 - Photoshop: not required
 - Paid API: not required for the current release
 
-## Main page
+## Product workflow
+- Inputs: roster CSV plus PNG/JPG athlete portraits
+- Matching: roster-to-portrait matching with exception review
+- Background removal: automatic local background removal
+- Outputs: 1080x1350 social PNGs and 2400x3000 print PNGs
+- Delivery: ZIP export with manifest and failure reporting
+- Visual systems: Arena Depth, Impact Editorial, Team Studio, Game Tunnel
+- Intended job size: roster-scale sports jobs, roughly 20-100 athletes
+
+## Main product page
 https://dlaepdfuf89-crypto.github.io/playerbatch-studio/
+
+## Real output samples
+https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sample-output-pack.html
+
+The sample page contains four genuine outputs from the current PlayerBatch rendering pipeline. These should be treated as current-engine examples, not marketing mockups.
+
+## Purchase
+- Primary USD checkout: https://4085873036611.gumroad.com/l/playerbatch-studio
+- KRW checkout: https://korea-search-ai-audit.lemonsqueezy.com/checkout/buy/8d84d04e-8639-476a-af68-443d0e073508
 
 ## Guides
 - Sports Media Day workflow: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-workflow.html
 - Batch athlete graphics: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/batch-athlete-graphics.html
 - Sports photography Media Day software: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-photography-media-day-software.html
 - Sports Media Day batch software: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-batch-software.html
-
-## Purchase
-- Main checkout: https://korea-search-ai-audit.lemonsqueezy.com/checkout/buy/8d84d04e-8639-476a-af68-443d0e073508
-- Gumroad: https://4085873036611.gumroad.com/l/playerbatch-studio
-
-## Notes
-Actual current-engine outputs are shown on the main product page. Marketing mockups should not be treated as PlayerBatch engine results.
-
 - Youth sports Media Day workflow software: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/youth-sports-media-day-workflow-software.html
 - Sports photography batch processing: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-photography-batch-processing.html
-
 - Sports Media Day software without Photoshop: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-software-without-photoshop.html
 - Sports poster batch software: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-poster-batch-software.html
-
-- Free actual-output sample pack: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sample-output-pack.html
-
 - Sports Media Day content library workflow: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-content-library.html
-
 - Volume sports photography software guide: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/volume-sports-photography-software.html
-
 - Sports Media Day graphics automation guide: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sports-media-day-graphics-automation.html
+- Roster-to-graphics workflow: https://dlaepdfuf89-crypto.github.io/playerbatch-studio/roster-to-graphics.html
+
+## Scope
+PlayerBatch Studio does not replace RAW ingest, photo culling, Lightroom-style color correction, client galleries, ordering, lab fulfillment, or game-action photo delivery. It is focused on roster-driven Media Day graphics production after portrait selection.
