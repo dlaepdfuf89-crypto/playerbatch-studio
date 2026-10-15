@@ -20,7 +20,7 @@ The workflow is designed for jobs where the same visual system must be personali
 
 ## Current release
 
-- Version 2.2.1
+- Version 2.2.2
 - Windows local workflow
 - Exact-match-first portrait matching with ambiguous matches flagged for review
 - Real-photo visual QA across all four systems
