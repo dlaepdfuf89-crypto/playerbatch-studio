@@ -14,6 +14,10 @@ PlayerBatch Studio is a local Windows batch-production tool for youth, school, c
 
 No Photoshop or subscription required for the built-in workflow. Windows only. Review sample outputs and requirements before purchasing.
 
+## Don't want software? Order a team batch instead
+
+Need the finished graphics rather than a Windows tool? [Request a **$99 done-for-you package for up to 20 athletes**](https://dlaepdfuf89-crypto.github.io/playerbatch-studio/team-graphics-service.html). We confirm project fit and availability before requesting payment. No player photos or sensitive roster data are needed for the initial inquiry.
+
 ## What it does
 
 - Import one roster CSV and one portrait folder
