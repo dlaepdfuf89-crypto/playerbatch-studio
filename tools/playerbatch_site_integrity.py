@@ -70,7 +70,7 @@ def main():
             continue
         with image.open("rb") as f:
             header = f.read(24)
-        if len(header) != 24 or header[:8] != b"\\x89PNG\\r\\n\\x1a\\n" or header[12:16] != b"IHDR":
+        if len(header) != 24 or header[:8] != bytes((137,80,78,71,13,10,26,10)) or header[12:16] != b"IHDR":
             errors.append(f"INVALID PNG proof: {rel}")
             continue
         actual = struct.unpack(">II", header[16:24])
