@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import sys
 import zipfile
+import struct
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = ("index.html", "sample-output-pack.html")
@@ -58,6 +59,23 @@ def main():
         path = ROOT / rel
         if not path.is_file() or path.stat().st_size == 0:
             errors.append(f"MISSING OR EMPTY mandatory: {rel}")
+    expected_dimensions = {
+        "assets/playerbatch_v222_real_social_1080x1350.png": (1080, 1350),
+        "assets/playerbatch_v222_real_print_2400x3000.png": (2400, 3000),
+    }
+    for rel, expected in expected_dimensions.items():
+        image = ROOT / rel
+        if not image.is_file():
+            errors.append(f"MISSING real export proof: {rel}")
+            continue
+        with image.open("rb") as f:
+            header = f.read(24)
+        if len(header) != 24 or header[:8] != b"\\x89PNG\\r\\n\\x1a\\n" or header[12:16] != b"IHDR":
+            errors.append(f"INVALID PNG proof: {rel}")
+            continue
+        actual = struct.unpack(">II", header[16:24])
+        if actual != expected:
+            errors.append(f"WRONG EXPORT SIZE {rel}: {actual} expected {expected}")
     for rel in PAGES:
         page = ROOT / rel
         if not page.is_file():
