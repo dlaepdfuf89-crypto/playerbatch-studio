@@ -7,9 +7,9 @@ import zipfile
 import struct
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGES = ("index.html", "sample-output-pack.html")
+PAGES = ("index.html", "sample-output-pack.html", "team-graphics-service.html")
 MANDATORY = (
-    "index.html", "sample-output-pack.html", "sample_roster_20.csv",
+    "index.html", "sample-output-pack.html", "team-graphics-service.html", "sample_roster_20.csv",
     "assets/playerbatch_social_hero.png", "assets/playerbatch_app_real.png",
     "assets/pro_actual_0.jpg", "assets/pro_actual_1.jpg",
     "assets/pro_actual_2.jpg", "assets/pro_actual_3.jpg",
