@@ -4,6 +4,16 @@
 
 PlayerBatch Studio is a local Windows batch-production tool for youth, school, club, and team sports photographers handling Media Day jobs at roster scale.
 
+## Get the finished team graphics faster
+
+**Photograph a 20–100 player roster?** Stop building each Media Day graphic one by one. Import your CSV and portraits, review photo matches, and batch-export consistent social and print PNGs for the whole roster.
+
+**See actual output before paying:** [Free sample output pack](https://dlaepdfuf89-crypto.github.io/playerbatch-studio/sample-output-pack.html) · [Product demo and details](https://dlaepdfuf89-crypto.github.io/playerbatch-studio/)
+
+**One-time purchase:** [Buy on Gumroad — $49](https://4085873036611.gumroad.com/l/playerbatch-studio) · [Korean checkout — ₩69,000](https://korea-search-ai-audit.lemonsqueezy.com/checkout/buy/8d84d04e-8639-476a-af68-443d0e073508)
+
+No Photoshop or subscription required for the built-in workflow. Windows only. Review sample outputs and requirements before purchasing.
+
 ## What it does
 
 - Import one roster CSV and one portrait folder
